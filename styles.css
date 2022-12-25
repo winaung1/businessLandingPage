@@ -1,0 +1,36 @@
+@font-face {
+    font-family: HappyFont;
+    src: url(Happy.ttf);
+}
+@font-face {
+    font-family: Brush;
+    src: url(Brush.otf);
+}
+.right-triangle{
+    background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #7fffd4 50%, #7fffd4 100%);
+}
+
+.adding-class-list{
+    display: flex;
+    flex-direction: column;
+    background-color: #bb0a21;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    top: 60px;
+    right: 28px;
+    z-index: 20;
+
+}
+.adding-lists-list{
+    display: flex;
+    flex-direction: column;
+    background-color: #bb0a21;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    top: 120px;
+    right: 120px;
+    z-index: 10;
+
+}
