@@ -6,3 +6,7 @@
     font-family: Brush;
     src: url(Brush.otf);
 }
+@font-face {
+    font-family: KNU;
+    src: url(knu.ttf);
+}
